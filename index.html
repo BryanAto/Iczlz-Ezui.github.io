@@ -11,7 +11,7 @@
     <p>D‘abord de pouvoir continuer, vous devrez décoder l‘autre message secret que vous venez d‘obtenir</p>
     
     <header>
-      <h2>Bureau</h2>
+      <h1>Bureau</h1>
     </header>
     
     <section>
@@ -19,9 +19,29 @@
         <h1>Dans le Bureau</h1>
           <label for="bureau">Cherchez dans le bureau une petite boite marron. Indice: Elle se trouve en hauteur. Quand vous aurez terminé, traduisez le prochain code et insére-le ci-dessous:</label><br>
   <input type="text" id="Area-Bureau" name="bureau"><br>
-  <input type="submit" value="Submit">
-        
+  <input type="submit" value="Submit" onclick="TransitBuro">  
       </article>
+      
+      
+      <article>
+        <p id="p-chambre" class="opacity">
+          <h1>Dans la chambre</h1>
+            <label for="chambre">Cherchez dans une chambre sous les coussins ou sous les lits. Quand vous aurez terminé, traduisez le prochain code et insére-le ci-dessous:</label><br>
+          <input type="text" id="Area-Chambre" name="chambre"><br>
+          <input type="submit" value="Submit" onclick="TransitChambre">
+        </p>
+      </article>
+
+
+      <article>
+        <p id="p-grenier" class="opacity">
+          <h1>Dans la chambre</h1>
+            <label for="grenier">Cherchez dans une chambre sous les coussins ou sous les lits. Quand vous aurez terminé, traduisez le prochain code et insére-le ci-dessous:</label><br>
+          <input type="text" id="Area-Grenier" name="grenier"><br>
+          <input type="submit" value="Submit" onclick="TransitGrenier">
+        </p>
+      </article>
+      
     </section>
     
     <footer>

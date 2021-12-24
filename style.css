@@ -11,7 +11,7 @@ header {
   background-color: #666;
   padding: 30px;
   text-align: center;
-  font-size: 35px;
+  /*font-size: 35px;*/
   color: white;
 }
 
@@ -34,10 +34,12 @@ article {
   float: left;
   padding: 20px;
   width: 100%; /* width: 70%; */
-  background-color: #f1f1f1;
+  background-color: #9ba0a4;
   height: 300px; /* only for demonstration, should be removed */
 }
-
+.opacity {
+  opacity: 0;
+}
 /* Clear floats after the columns */
 section::after {
   content: "";
