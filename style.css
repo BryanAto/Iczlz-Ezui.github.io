@@ -4,14 +4,21 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 100%;
+}
+.paragraph {
+  font-size: 150%;
 }
 
+.h_deux {
+  font-size: 150%;
+}
 /* Style the header */
 header {
   background-color: #666;
   padding: 30px;
   text-align: center;
-  /*font-size: 35px;*/
+  font-size: 75%;
   color: white;
 }
 
@@ -32,11 +39,16 @@ nav ul {
 
 article {
   float: left;
-  padding: 20px;
+  padding: 5%; /* padding: 20px; */
   width: 100%; /* width: 70%; */
+  text-align: center;
+  font-size: 100%;
   background-color: #9ba0a4;
-  height: 300px; /* only for demonstration, should be removed */
 }
+.extra {
+  font-size: 150%;
+}
+
 .opacity {
   opacity: 0;
 }

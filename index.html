@@ -7,45 +7,40 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <h2>Bienvenues dans la chasse au trésor 2021 (par Bryan)</h2>
-    <p>D‘abord de pouvoir continuer, vous devrez décoder l‘autre message secret que vous venez d‘obtenir</p>
+    <h2 class="h_deux">Bienvenues dans la chasse au trésor 2021 (par Bryan)</h2>
+    <p class="paragraph">D‘abord de pouvoir continuer, vous devrez décoder l‘autre message secret que vous venez d‘obtenir</p>
     
     <header>
-      <h1>Bureau</h1>
+      <h1>La carte à déchiphrer</h1>
     </header>
     
     <section>
       <article>
-        <h1>Dans le Bureau</h1>
-          <label for="bureau">Cherchez dans le bureau une petite boite marron. Indice: Elle se trouve en hauteur. Quand vous aurez terminé, traduisez le prochain code et insére-le ci-dessous:</label><br>
-  <input type="text" id="Area-Bureau" name="bureau"><br>
-  <input type="submit" value="Submit" onclick="TransitBuro">  
+          <h1 class="opacity" id="Dans le bureau">Dans le bureau</h1>
+            <label for="bureau" class="opacity" id="label-bureau"></label><br>
+          <input type="text" id="Area-Bureau" name="bureau"><br>
+          <input type="button" value="Submit" onclick="TransitBuro()">  
       </article>
       
       
       <article>
-        <p id="p-chambre" class="opacity">
-          <h1>Dans la chambre</h1>
-            <label for="chambre">Cherchez dans une chambre sous les coussins ou sous les lits. Quand vous aurez terminé, traduisez le prochain code et insére-le ci-dessous:</label><br>
-          <input type="text" id="Area-Chambre" name="chambre"><br>
-          <input type="submit" value="Submit" onclick="TransitChambre">
-        </p>
+          <h1 class="opacity" id="Dans la chambre">Dans la chambre</h1>
+            <label for="chambre" id="label-chambre"></label><br>
+          <input type="text" id="Area-Chambre" name="chambre" class="opacity"><br>
+          <input type="submit" id="Submit-Chambre" value="Submit" onclick="TransitChambre()" class="opacity">
       </article>
 
-
       <article>
-        <p id="p-grenier" class="opacity">
-          <h1>Dans la grenier</h1>
-            <label for="grenier">Cherchez dans une chambre sous les coussins ou sous les lits. Quand vous aurez terminé, traduisez le prochain code et insére-le ci-dessous:</label><br>
-          <input type="text" id="Area-Grenier" name="grenier"><br>
-          <input type="submit" value="Submit" onclick="TransitGrenier">
-        </p>
+          <h1 class="opacity" id="Dans le grenier">Dans le grenier</h1>
+            <label for="grenier" id="label-grenier"></label><br>
+          <input type="text" id="Area-Grenier" name="grenier" class="opacity"><br>
+          <input type="submit" id="Submit-Grenier" value="Submit" onclick="TransitGrenier()" class="opacity">
       </article>
       
     </section>
     
     <footer>
-      <p>Footer</p>
+      <p>© Bryan Atonfack 2021</p>
     </footer>
 
 
